@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-M5SJDZ36");
+  </script>
+  <!-- End Google Tag Manager -->
+  <!-- Bulma -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css" rel="stylesheet">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Lato&family=Oswald&family=Train+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css" rel="stylesheet">
+  <!-- My Style -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Vue.js -->
+  <!-- 開発版 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+  <!-- Fuse.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
+  <!-- Html2canvas -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <!-- Site Info -->
+  <title>Wardrobe - SpaceLabz</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="alternate" hreflang="en" href="/">
+  <link rel="alternate" hreflang="en" href="index.html">
+  <meta name="description" content="Wardrobe - SpaceLabz。">
+  <meta property="og:title" content="Wardrobe - SpaceLabz">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/">
+  <meta property="og:image" content="/logo.png">
+  <meta property="og:site_name" content="Wardrobe - SpaceLabz">
+  <meta property="og:description" content="SpaceLabz Wardrobe Image Generator">
+  <meta property="og:locale" content="en_EN">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="Wardrobe - SpaceLabz">
+  <meta name="twitter:url" content="/">
+  <meta name="twitter:title" content="Wardrobe - SpaceLabz">
+  <meta name="twitter:description" content="Wardrobe - SpaceLabz">
+  <meta name="twitter:image" content="/logo.png">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Bootstrap JS CDN (includes Popper.js for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M5SJDZ36" height="0" width="0"
+      style="display: none; visibility: hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <section class="section has-background-dark" id="app">
+
+
+    <div class="columns">
+
+<!--Start Of Sidebar 1-->
+
+      <div class="column">
+        <div class="field" style="padding-left: 30px;font-size: 20px;">
+          <div class="buttons">
+            <a style="color: #ffffff;">Connect Wallet</a>
+          </div>
+        </div>
+        <div class="box" style="background-color: #5c5c5c50;">
+          
+          <div class="field">
+           
+            <p class="control">
+           <img src="./img/sb1.png">
+            </p>
+          </div>
+          <!-- iconsModal ... -->
+       
+   
+          
+     
+        </div>
+
+        <div class="box" style="background-color: #5c5c5c50;">
+          
+          <div class="field">
+            <p class="control">
+           <img src="./img/sb2.png">
+            </p>
+          </div>
+        </div>
+        <div class="box" style="background-color: #5c5c5c50;">
+          
+          <div class="field">
+            <p class="control">
+           <img src="./img/sb3.png">
+            </p>
+          </div>
+        </div>
+  
+          <!--High Resulation File-->
+<div class="field" style="padding-top: 12px;">
+  <label class="label" style="color: #ffffff;">High Resolution File</label>
+  <div class="file mb-2">
+    <label class="file-label" style="width: 200px;">
+      <input class="file-input" type="file" @change="selectImage">
+      <span class="file-cta"  style="width: 200px;">
+        <span class="file-icon">
+          <i class="fas fa-upload"></i>
+        </span>
+        <span class="file-label">
+          Choose a file…
+        </span>
+      </span>
+    </label>
+  </div>
+  <div class="preview-item">
+    <div v-if="imageData">
+      <span v-text="imageName"></span>
+      <button class="delete is-medium" @click="removeImage"></button>
+    </div>
+  </div>
+</div>
+<!--End High Resolution File-->
+ 
+
+      </div>
+<!--End Of Sidebar 1-->
+
+    
+      <div class="column is-8">
+        <div class="row">
+          <div class="box" id="preview" style="background-color: #44434300;">
+            <div style="overflow: auto;">
+              <div id="screenshot-area" class="screenshot-area" v-bind:style="[cssForScreenshotArea,cssForPreview]">
+                <div class="photo_area" v-bind:style="[cssForPhotoArea]"></div>
+                <div class="message_area"><i v-bind:class="icon"></i><br><span v-text="title"></span></div>
+              </div>
+              <div style="position: absolute; opacity: 0.0; left:-2000px;">
+                <div class="screenshot-area" v-bind:style="[cssForScreenshotArea]">
+                  <div class="photo_area" v-bind:style="[cssForPhotoArea]"></div>
+                  <div class="message_area"><i v-bind:class="icon"></i><br><span v-text="title"></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <button style="background-color: rgb(28, 0, 128); color: white;">Download</button>
+          </div>
+        </div>
+
+        
+
+        
+     
+        
+        
+        <!-- gradientsModal ... -->
+        <div class="modal" v-bind:class="{'is-active':gradientsModalFlg}">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title">Choose Gradient</p>
+              <button class="delete" aria-label="close" v-on:click="gradientsModalFlg=false"></button>
+            </header>
+            <section class="modal-card-body">
+              <div class="columns is-multiline has-text-centered">
+                <template v-for="webgradient in webgradients">
+                  <div class="column is-4"><a class="box"
+                      v-on:click="selectGradient(webgradient); gradientsModalFlg=false"
+                      v-bind:style="{ background: 'linear-gradient(' + webgradient + ')' }"><br><br><br><br><br></a>
+                  </div>
+                </template>
+              </div>
+            </section>
+            <footer class="modal-card-foot">
+            </footer>
+          </div>
+        </div>
+        <!-- ...gradientsModal -->
+
+
+      </div>
+      
+      <div class="column">
+        <div class="box" style="background-color: #5c5c5c50;padding-top: 50px;">
+          <div class="field">
+            <div class="buttons">
+              <a class="button is-light" v-for="item in sampleItems" v-on:click="showSample(item)"
+                v-text="item.title"></a>
+            </div>
+          </div>
+          <hr>
+          <div class="field">
+            <label class="label" style="color: #ffffff;">Traits</label>
+            <p class="control">
+            <div class="field has-addons">
+              <p class="control is-expanded">
+                <input class="input" type="text" v-model="icon">
+              </p>
+              <p class="control">
+                <a class="button is-link" v-on:click="iconsModalFlg=true" style="color: rgb(255, 255, 255);background-color: #7c47d142;border-color: transparent;">Choice</a>
+              </p>
+            </div>
+            </p>
+          </div>
+          <!-- iconsModal ... -->
+          <div class="modal" v-bind:class="{'is-active':iconsModalFlg}">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+              <header class="modal-card-head">
+                <p class="modal-card-title">Choose Traits</p>
+                <button class="delete" aria-label="close" v-on:click="iconsModalFlg=false"></button>
+              </header>
+              <section class="modal-card-body">
+                <div class="field">
+                  <div class="control">
+                    <input class="input" type="text" placeholder="Search..." v-model="keyword">
+                  </div>
+                </div>
+                <div class="columns is-multiline has-text-centered">
+                  <template v-for="searchedIcon in searchedIcons">
+                    <div class="column is-3" v-if="searchedIcon.styles.indexOf('solid') !== -1"><a class="box"
+                        v-on:click="selectIcon('fas fa-' + searchedIcon.name); iconsModalFlg=false"><i class="is-size-2"
+                          v-bind:class="'fas fa-' + searchedIcon.name"></i><br><span
+                          v-text="searchedIcon.name"></span></a></div>
+                    <div class="column is-3" v-if="searchedIcon.styles.indexOf('regular') !== -1"><a class="box"
+                        v-on:click="selectIcon('far fa-' + searchedIcon.name); iconsModalFlg=false"><i class="is-size-2"
+                          v-bind:class="'far fa-' + searchedIcon.name"></i><br><span
+                          v-text="searchedIcon.name"></span></a></div>
+                    <div class="column is-3" v-if="searchedIcon.styles.indexOf('light') !== -1"><a class="box"
+                        v-on:click="selectIcon('fal fa-' + searchedIcon.name); iconsModalFlg=false"><i class="is-size-2"
+                          v-bind:class="'fal fa-' + searchedIcon.name"></i><br><span
+                          v-text="searchedIcon.name"></span></a></div>
+                    <div class="column is-3" v-if="searchedIcon.styles.indexOf('brands') !== -1"><a class="box"
+                        v-on:click="selectIcon('fab fa-' + searchedIcon.name); iconsModalFlg=false"><i class="is-size-2"
+                          v-bind:class="'fab fa-' + searchedIcon.name"></i><br><span
+                          v-text="searchedIcon.name"></span></a></div>
+                  </template>
+                </div>
+              </section>
+              <footer class="modal-card-foot">
+              </footer>
+            </div>
+          </div>
+          <!-- ...iconsModal -->
+          <div class="field">
+            <label class="label" style="color: #ffffff;">Title</label>
+            <textarea class="input" v-model="title"></textarea>
+          </div>
+          <div class="field">
+            <label class="label" style="color: #ffffff;">Background Color</label>
+            <p class="control">
+            <div class="field has-addons">
+              <p class="control is-expanded">
+                <input class="input" type="text" v-model="color">
+              </p>
+              <p class="control">
+                <a class="button is-link" v-on:click="gradientsModalFlg=true" style="color: rgb(255, 255, 255);background-color: #7c47d142;border-color: transparent;">Choice</a>
+              </p>
+            </div>
+            </p>
+          </div>
+          <!-- gradientsModal ... -->
+          <div class="modal" v-bind:class="{'is-active':gradientsModalFlg}">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+              <header class="modal-card-head">
+                <p class="modal-card-title">Choose Gradient</p>
+                <button class="delete" aria-label="close" v-on:click="gradientsModalFlg=false"></button>
+              </header>
+              <section class="modal-card-body">
+                <div class="columns is-multiline has-text-centered">
+                  <template v-for="webgradient in webgradients">
+                    <div class="column is-4"><a class="box"
+                        v-on:click="selectGradient(webgradient); gradientsModalFlg=false"
+                        v-bind:style="{ background: 'linear-gradient(' + webgradient + ')' }"><br><br><br><br><br></a>
+                    </div>
+                  </template>
+                </div>
+              </section>
+              <footer class="modal-card-foot">
+              </footer>
+            </div>
+          </div>
+          <!-- ...gradientsModal -->
+          <div class="field">
+            <label class="label" style="color: #ffffff;">Choose Background</label>
+            <div class="file mb-2">
+              <label class="file-label">
+                <input class="file-input" type="file" @change="selectImage">
+                <span class="file-cta">
+                  <span class="file-icon">
+                    <i class="fas fa-upload"></i>
+                  </span>
+                  <span class="file-label">
+                    Choose a file…
+                  </span>
+                </span>
+              </label>
+            </div>
+            <div class="preview-item">
+              <div v-if="imageData">
+                <span v-text="imageName"></span>
+                <button class="delete is-medium" @click="removeImage"></button>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label" style="color: #ffffff;">Image Resolution</label>
+            <div class="is-flex">
+              <p class="control">
+                <input class="input" type="text" v-model="width">
+              </p>
+              <div class="mx-3 is-size-5" style="color: #ffffff;">x</div>
+              <p class="control">
+                <input class="input" type="text" v-model="height">
+              </p>
+            </div>
+          </div>
+         
+       
+          <details>
+          
+           
+            
+            <!-- fontsModal ... -->
+            <div class="modal" v-bind:class="{'is-active':fontsModalFlg}">
+              <div class="modal-background"></div>
+              <div class="modal-card">
+                <header class="modal-card-head">
+                  <p class="modal-card-title">フォント選択</p>
+                  <button class="delete" aria-label="close" v-on:click="fontsModalFlg=false"></button>
+                </header>
+                <section class="modal-card-body">
+                  <div class="columns is-multiline has-text-centered">
+                    <template v-for="f in fonts">
+                      <div class="column is-4">
+                        <a class="box" v-text="f.name" v-bind:style="{ fontFamily: f.fontFamily }"
+                          v-on:click="selectFont(f); fontsModalFlg=false"><br><br><br><br><br></a>
+                      </div>
+                    </template>
+                  </div>
+                </section>
+                <footer class="modal-card-foot">
+                </footer>
+              </div>
+            </div>
+            <!-- ...fontsModal -->
+          </details>
+        </div>
+        <div class="field mt-5">
+          <a class="button  is-fullwidth" v-on:click="download"
+            v-bind:class="{'is-downloading':isDownloading}" style="color: rgb(255, 255, 255);background-color: #7c47d142;border-color: transparent;">Download</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="column"><h6 style="color: whitesmoke;"> High Resolution File</h6></div>
+      <div class="column"><h6 style="color: whitesmoke;"> Black & White File</h6></div>
+      <div class="column"></div>
+      <div class="column"><h6 style="color: whitesmoke;"> Identity Ring</h6></div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+          <!-- Column 1 content goes here -->
+          <!-- <h6 style="color: whitesmoke;"> High Resolution File</h6> -->
+              <div class="card bg-dark text-white" style="width: 12rem;">
+                <div class="card-header">
+                  Pick Spacebuds
+                </div>
+                <div class="card-body" style="overflow-y: auto; height: 200px;">
+                    <!-- Scrollable content goes here -->
+                    <!-- <p style="color: cyan;">1. spacebuds </p>  -->
+                    <img src="sb1.png" @change="selectImage" style="cursor: pointer;">
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                </div>
+            </div>
+      </div>
+      <div class="column">
+          <!-- Column 1 content goes here -->
+          <!-- <h6 style="color: whitesmoke;"> Black & White File</h6> -->
+              <div class="card bg-dark text-white" style="width: 12rem;">
+                <div class="card-header">
+                  Pick Spacebuds
+                </div>
+                <div class="card-body" style="overflow-y: auto; height: 200px;">
+                    <!-- Scrollable content goes here -->
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                </div>
+            </div>
+      </div>
+      <div class="column">
+          <!-- Column 1 content goes here -->
+          <h6 style="color: whitesmoke;"> </h6>
+              <div class="card bg-dark text-white" style="width: 12rem;">
+                <div class="card-header">
+                  Pick Spacebuds
+                </div>
+                <div class="card-body" style="overflow-y: auto; height: 200px;">
+                    <!-- Scrollable content goes here -->
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                </div>
+            </div>
+      </div>
+      <div class="column">
+          <!-- Column 1 content goes here -->
+          <!-- <h6 style="color: whitesmoke;"> Black & White File</h6> -->
+              <div class="card bg-dark text-white" style="width: 12rem;">
+                <div class="card-header">
+                  Pick Spacebuds
+                </div>
+                <div class="card-body" style="overflow-y: auto; height: 200px;">
+                    <!-- Scrollable content goes here -->
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                </div>
+              </div>
+      </div>
+    <!-- row end -->
+    </div>
+    <div class="row">
+      <div class="column">
+          <!-- Column 1 content goes here -->
+          <!-- <h6 style="color: whitesmoke;"> High Resolution File</h6> -->
+              <div class="card bg-dark text-white" style="width: 12rem;">
+                <div class="card-header">
+                  Choose Suit
+                </div>
+                <div class="card-body" style="overflow-y: auto; height: 200px;">
+                    <!-- Scrollable content goes here -->
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                </div>
+            </div>
+      </div>
+      <div class="column">
+          <!-- Column 1 content goes here -->
+          <!-- <h6 style="color: whitesmoke;"> Black & White File</h6> -->
+              <div class="card bg-dark text-white" style="width: 12rem;">
+                <div class="card-header">
+                  Choose Hat
+                </div>
+                <div class="card-body" style="overflow-y: auto; height: 200px;">
+                    <!-- Scrollable content goes here -->
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                </div>
+            </div>
+      </div>
+      <div class="column">
+          <!-- Column 1 content goes here -->
+          <h6 style="color: whitesmoke;"> </h6>
+              <div class="card bg-dark text-white" style="width: 12rem;">
+                <div class="card-header">
+                  Choose Banner
+                </div>
+                <div class="card-body" style="overflow-y: auto; height: 200px;">
+                    <!-- Scrollable content goes here -->
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                </div>
+            </div>
+      </div>
+      <div class="column">
+          <!-- Column 1 content goes here -->
+          <!-- <h6 style="color: whitesmoke;"> Black & White File</h6> -->
+              <div class="card bg-dark text-white" style="width: 12rem;">
+                <div class="card-header">
+                  Choose Background Color
+                </div>
+                <div class="card-body" style="overflow-y: auto; height: 200px;">
+                    <!-- Scrollable content goes here -->
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                    <p style="color: cyan;">1. spacebuds </p> 
+                </div>
+              </div>
+      </div>
+    <!-- row end -->
+    </div>
+
+    </div>
+
+      
+      
+  </div>
+  </section>
+
+  <style>
+
+    .row {
+        display: flex;
+    }
+
+    .column {
+        flex: 1; /* This will make each column take up equal width. Adjust as needed. */
+    }
+    .github-corner:hover .octo-arm {
+      animation: octocat-wave 560ms ease-in-out
+    }
+
+    @keyframes octocat-wave {
+
+      0%,
+      100% {
+        transform: rotate(0)
+      }
+
+      20%,
+      60% {
+        transform: rotate(-25deg)
+      }
+
+      40%,
+      80% {
+        transform: rotate(10deg)
+      }
+    }
+
+    @media (max-width:500px) {
+      .github-corner:hover .octo-arm {
+        animation: none
+      }
+
+      .github-corner .octo-arm {
+        animation: octocat-wave 560ms ease-in-out
+      }
+    }
+  </style>
+  <script src="js/index.js" type="module"></script>
+</body>
+
+</html>
